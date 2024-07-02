@@ -788,12 +788,11 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||cheat-world.site^$doc
 ||clc-link.me^$all
 ||soft-portal.me^$doc
-||app.mediafire.com/5lczvry2cvhzd$doc
+||app.mediafire.com/qtz1ifx0uetl4$doc
 ||mediafire.com/folder/10ejpiwio2gfh/$doc
-||mediafire.com/folder/gbhbhm73350j9/$doc
-||mediafire.com/folder/o5yyo8jww2bde/$doc
+||mediafire.com/folder/s5k8d836a2xwr/$doc
 ||mediafire.com/folder/atuqt39mahs1x/$doc
-||mediafire.com/folder/5lczvry2cvhzd/$doc
+||mediafire.com/folder/upkvl96lgm82i/$doc
 ||mediafire.com/folder/ygvzvvks1va0b/$doc
 ||mediafire.com/folder/n2cwlepl4zeov/$doc
 ||mediafire.com/folder/cybqk7ulnmptm/$doc
@@ -804,7 +803,6 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sites.google.com/view/amamsoft$doc
 ||sites.google.com/view/hubgames$doc
 ||sites.google.com/view/ulpackmnn$doc
-||sites.google.com/view/fortnite-hack-free-hack$doc
 ||sites.google.com/view/externalcheats-game$doc
 ||gamefree.vip^$doc
 ||pewhack.com^$doc
@@ -821,6 +819,9 @@ tech4yougadgets.com##+js(aopr, Notification)
 ||sssrust.com^$doc
 ||softport.fun^$all
 ||cheat.sierramercado.com^$doc
+||arcanecheat.com^$doc
+||vavilonhack.fun^$all
+||csfusion.ru^$all
 ! https://cloud-folder.org/KRvjWueEcl/
 ||cloud-folder.org^$doc
 
@@ -1055,6 +1056,7 @@ cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:ce
 haxnode.net##[id^="haxno-"]
 romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 zuketcreation.net##.cente-1
+xcloud.mom##.ads-btns
 ||xforce-cracks.com^$doc
 ||fileisready.com^$doc
 ||yip.su/latestfiles|$all
@@ -1066,23 +1068,13 @@ zuketcreation.net##.cente-1
 ! https://github.com/uBlockOrigin/uAssets/issues/15793
 ! https://github.com/blocklistproject/Lists/issues/933
 ||sbjjzdwqg41ps.click^$all
-||9bghqk3avg2gnh.click^$all
-||keychauoic.click^$all
-||80fvj17ws14n.click^$all
-||khw6g09fx28k.cfd^$all
-||49gw5gonj143k.click^$all
-||2ajsvd12.com^$all
 ||vgfrrtc.click^$all
 ||vablecable.click^$all
-||rosterfile4u.click^$all
-||a18n5nh14xos.click^$all
-||rarvinzp.click^$all
 ||mcteirx.click^$all
 ||igluumars.click^$all
 ||poixtre.click^$all
 ||ygabgga.click^$all
 ||browimeto.click^$all
-||thsgbbsg.click^$all
 ||ambrkx.click^$all
 ||kcmcbc.click^$all
 ||ovgtt9j87tgh.world^$all
@@ -1098,6 +1090,8 @@ zuketcreation.net##.cente-1
 ||ewuipld.pro^$all
 ||dhux7ijh.click^$all
 ||lokasjc.cfd^$all
+||sertyuurs.xyz^$all
+||u87yuo9ojh.world^$all
 .click/?s=*&g=*&q=files.zip$doc
 .click/*?s=*&g=*&q=$script,3p
 .click/?h=*&user=$script,3p
@@ -3681,6 +3675,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||clickhereecraigslist.tripod.com^$all
 ||mobilelegendsmycode.com^$all
 ||taikhoanvps.com.vn^$doc,domain=~vps.com.vn
+||ups-service.us^$all,to=~ups.com
 ||final-ua.eu/vasilisa/votings$all
 ! https://infosec.exchange/@urldna/112471179848866488
 ||codeanyapp.com/neta/*/pay-method.php$doc
@@ -3703,6 +3698,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||k8cxh.shop^$all,to=~gazprom.ru
 ||c2bm9.shop^$all,to=~gazprom.ru
 ||cz4sb.shop^$all,to=~gazprom.ru
+||v5hhx.shop^$all,to=~gazprom.ru
 
 ! netflix
 ! https://infosec.exchange/@urldna/112657446079878043
@@ -3741,6 +3737,10 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||assistancesosh.wixsite.com^$all,to=~orange.fr
 
 ! amazon
+||amazon-*.shop^$doc
+||amazon-shop.site^$all
+||amazon-shopping.shop^$all
+||amazon-mena.shop^$all
 ||amazonl3.com^$all
 ||amazon-onboarding.com^$all
 ||etisalat-amazonprime.com^$all,to=~etisalat.ae
@@ -3811,9 +3811,14 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sparkasse-oberhessen.info^$all,to=~sparkasse.de
 ! https://infosec.exchange/@urldna/112496070441371886
 ||mybluehost.me/service/*/nkl-log.php$doc,domain=~nickel.eu
+! https://infosec.exchange/@urldna/112698261947645787
+||turkiyecumhuriyetiziraatbankasi.com^$all,to=~ziraatbank.com.tr
 
 ! DHL
 ||dhl.*.potabox.com^$doc,domain=~dhl.com
+||dhl-event.app^$all,to=~dhl.com
+||dhexpress.weebly.com^$all,to=~dhl.com
+||sites.google.com/view/expressdhl^$all
 ! https://infosec.exchange/@urldna/112362770153826421
 ||solutionfun.info^$all
 ! https://infosec.exchange/@urldna/112516596219764485
@@ -3821,8 +3826,14 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 
 ! facebook
 /^https:\/\/[vw]ww-[a-z]?facebook([.-]com)?\.vn\//$doc,domain=vn
+||notificationbyfacebook.$doc
+||notificationbyfacebook.firebaseapp.com^$all
+||notificationbyfacebook.web.app^$all
 ||business-facebook-*.pages.dev^$all
 ||unusualaccountcnfrmpages.github.io^$all
+||page-facebook.go-midfer.com^$all
+||facebook.prantiksoft.com^$all
+||facebook-guidelines.com^$all
 ! https://infosec.exchange/@urldna/112476842252816959
 ||www-mfacebook.vn^$all
 ! https://infosec.exchange/@urldna/112560479201333529
@@ -3832,6 +3843,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ! https://www.virustotal.com/gui/url/e5632b7ebd4d9ef4899155af4a8cf218797bd59972c231a7897b603b32ccccb1
 ||govern-assessment-validation-njbujm.vercel.app^$all
 ! instagram
+||verifity-instagram.com^$all
+||instagramshshjsjsjssjjsjsjshsb.blogspot.com^$all
 ||arpitgoel889.github.io/Instagram/$all
 ! https://infosec.exchange/@urldna/112671955845426234
 ||tgbot.cyb3r.army/*/Instagram.com.html^$all
@@ -3857,6 +3870,9 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||mayxanhsupport.com^$all,to=~dienmayxanh.com
 ||trungtam-dienmayxanh.com^$all,to=~dienmayxanh.com
 
+! game sites
+! https://www.virustotal.com/gui/url/eb23a1313dca59bd74228b42bd82fa26d9ef8e83928fbed9cd840d65aa86d9c6
+||aiwiwd.vrlnnew2023.biz.id^$all
 ! steam
 ||steamproxy.*^$all,to=steamproxy.cc|steamproxy.net|steamproxy.vip
 ||sp.aircsgo.com^$all
@@ -3866,6 +3882,13 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||sp.26skins.com^$all
 ! https://infosec.exchange/@urldna/112663344254245028
 ||steamommunity.com^$all
+! https://www.virustotal.com/gui/url/dee8baf8c608eb1f7eb711c578f05de928801d1526196e9ab692971cc29bbec4
+||steam.workshop-item.com^$all
+! https://www.virustotal.com/gui/url/d16f07ca49e9334d080d427294630f22f10d8925de8ae73df2128e0bdbd434a9
+||steam.communityart-work.com^$all
+! https://infosec.exchange/@urldna/112703688212678712
+! https://www.virustotal.com/gui/url/570741850fda8e41512e1c94f60dd344f18355f3f5d097e6f1c8c39557e8df26
+||steaemcoonmmunnltly.com^$all
 ! garena
 ! https://infosec.exchange/@urldna/112226284936503649
 ! https://infosec.exchange/@urldna/112354748681058897
@@ -3878,22 +3901,29 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ! pubg
 ||pubg-arena.top^$all
 ||pubgm.kraftonevent.com^$all
+||globalx.krafton-redeem.com^$all
 
 ! google
 ||bxzxenzidrmrksu.jiongcao.cn^$all
+||google-stare.com^$all
 ! https://infosec.exchange/@urldna/112294350751277558
 ||datahub.center^$all
 ! https://infosec.exchange/@urldna/112435554388872743
 ||channelhub.info^$all
 
 ! microsoft
+||microsoft*.dfautomotive.de^$doc
+||microsoft.dfautomotive.de^$all
+||microsoft.account.dfautomotive.de^$all
 ||whfdny.org^$all
 ||microsoft-login.zapier.app^$all
 ||outlook-office.zapier.app^$all
 ||infos4.yolasite.com^$all
 ||policija64.wixsite.com^$all
-||microsoft.dfautomotive.de^$all
 ||exchange.add-solution.de^$all
+||microsoft-bec7e0.webflow.io^$all
+||your-officeo365.webflow.io^$all
+||outlookoffice365team.webflow.io^$all
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm$all
 ||od.atami.no/one_drive.html$all
 ! https://www.virustotal.com/gui/url/20d6a5b64d26edeb2e5caae3aa19c00ebd83a6d4dac9e41486c823751e875030
@@ -3904,6 +3934,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||storageapi-new.fleek.co/*/yss/ind.html$all
 ! https://infosec.exchange/@urldna/112689768399095978
 ||wwwservicemsnlive-*.hubspotpagebuilder.com^$all
+! https://www.virustotal.com/gui/url/b434ef1646001aeffd5a32021dc365e17f38b4ca73cbd06e237fa29749e5ae05
+||conohawing.com/*/outlook-$doc
 
 ! telegram
 ||telegramhcn.com^$all
@@ -3985,6 +4017,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ! imtoken
 ||imtoken.org.cn^$all,to=~token.im
 ||imtoken-lk.top^$all,to=~token.im
+||tokenap.app^$all,to=~token.im
 ! opensea
 ||opensea-nft.web.app^$all,to=~opensea.io
 ||paslanmazspider.org/bin/$all,to=~opensea.io
@@ -3999,6 +4032,7 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ||vodafone-mail-de.brimble.app^$all,to=~vodafone.de
 ||adobecloud5xpo.yolasite.com^$all,to=~adobe.com
 ||leboncoinversement.mystrikingly.com^$all,to=~leboncoin.fr
+||mmitalianbeef.square.site^$all,to=~mmitalianbeef.com
 ||beluxrepm.followme.fr/FolloWMe$all,to=~realestate.bnpparibas.com
 ||mybluehost.me/Cope346/$all
 ||glitch.me/pdf.html?email=$doc
@@ -4016,6 +4050,8 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ! https://www.virustotal.com/gui/url/8535360250e8559c6b49f8e71c0e9fd7cead15b7d6e1492742fc47ba6bbe9a72
 ||isms.ph/*/autoscout24/$all,to=~autoscout24.com
 
+! https://khonggianmang.vn/uploads/2024_CBT_15_e8dc0f11bc.pdf
+||dailyssshopee.com^$all,to=~shopee.vn
 ! https://khonggianmang.vn/uploads/20240502_BCT_04_2024_V2_1_a0c95c1f96.pdf
 ||clzl.pro^$all,to=~momo.vn
 ! https://khonggianmang.vn/uploads/2024_CBT_21_c7d8f95f66.pdf
@@ -4216,3 +4252,12 @@ oltacidergisi.com##+js(acs, atob, minimalDrainValue)
 ! https://github.com/pizzaboxer/bloxstrap/blob/main/README.md
 ||bloxstrap.*^$doc
 ||bloxstrapmenu.com^$doc
+
+! https://github.com/uBlockOrigin/uAssets/issues/24323
+! https://www.virustotal.com/gui/url/f355d4d12f50be515284fc97096bad1f093194efe21fd7420c4446ae20def74a
+! https://transparencyreport.google.com/safe-browsing/search?url=joannclearances.com
+! https://safeweb.norton.com/report/show?url=joannclearances.com
+! https://www.urlvoid.com/scan/joannclearances.com/
+! https://www.scamadviser.com/check-website/joannclearances.com
+! https://www.scam-detector.com/validator/joannclearances-com-review/
+||joannclearances.com^$all,to=~joann.com

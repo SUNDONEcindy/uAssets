@@ -264,6 +264,7 @@ kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(spoof-css, .kcAds1, display, bl
 kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(acs, setTimeout, /Adb|_0x/i)
 kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(rmnt, script, /adb/i)
 kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(no-xhr-if, /googlesyndication|mgid\.com/)
+kimcartoon.*,kisscartoon.se,kc.linksgen.com##+js(no-xhr-if, method:/get|head/i)
 kimcartoon.*##+js(nowoif)
 kimcartoon.*,kimcartoon.unblockit.*,kisscartoon.se,kc.linksgen.com##+js(acs, $, adbWarn)
 kimcartoon.*##+js(aopw, Fingerprint2)
@@ -483,6 +484,15 @@ pixiv.net##main > section > div > div:has(> iframe[name][width="500"][height="52
 pixiv.net##section > div[class^="sc-"]:last-child:has(> div[style*="width: 728px;"]:only-child > iframe[name="footer"][width="728"][height="90"]):matches-css(margin-bottom: -16px)
 ! https://github.com/uBlockOrigin/uAssets/issues/22418
 pixiv.net##section ul > li:has(> iframe[name="infeed"])
+
+! https://github.com/uBlockOrigin/uAssets/issues/1627
+! https://github.com/uBlockOrigin/uAssets/issues/1650
+! https://github.com/uBlockOrigin/uAssets/issues/2732
+! https://github.com/uBlockOrigin/uAssets/issues/4523
+mercurynews.com##+js(set, CnnXt.Event.fire, noopFunc)
+mercurynews.com##.dfp-ad
+@@||mercurynews.com^$ghide
+/wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
 
 ! END: Rules from filters.txt
 
@@ -1819,7 +1829,7 @@ thejakartapost.com##.tjp-single__content-ads:remove()
 ! https://github.com/uBlockOrigin/uAssets/issues/23873
 ! https://github.com/uBlockOrigin/uAssets/issues/23965
 ! https://github.com/uBlockOrigin/uAssets/issues/24013
-$frame,csp=sandbox allow-downloads allow-forms allow-same-origin allow-scripts,to=~buymeacoffee.com|~chatango.com|~cloudflare.com|~dailymotion.com|~disqus.com|~edgecastcdn.net|~emturbovid.com|~facebook.com|~frembed.*|~google.*|~hcaptcha.com|~mixdrop.*|~ok.ru|~recaptcha.net|~twitter.com|~vixcloud.co|~youtu.be|~youtube.com|~x.com,from=1jour1film.homes|7mmtv.sx|animefever.cc|animeunity.to|antennasports.ru|detodopeliculas.nu|fmovies24.to|hianime.to|kickassanime.*|kipflix.vercel.app|kissanime.*|seriescultes.store|soccerinhd.com|xsportbox.com
+$frame,csp=sandbox allow-downloads allow-forms allow-same-origin allow-scripts,to=~buymeacoffee.com|~chatango.com|~cloudflare.com|~dailymotion.com|~discord.com|~disqus.com|~edgecastcdn.net|~emturbovid.com|~facebook.com|~frembed.*|~google.*|~hcaptcha.com|~mixdrop.*|~ok.ru|~recaptcha.net|~twitter.com|~vixcloud.co|~youtu.be|~youtube.com|~x.com,from=1jour1film.homes|7mmtv.sx|animefever.cc|animeunity.to|antennasports.ru|detodopeliculas.nu|fmovies24.to|hianime.to|kickassanime.*|kipflix.vercel.app|kissanime.*|seriescultes.store|soccerinhd.com|xsportbox.com
 ! https://github.com/uBlockOrigin/uAssets/issues/23689
 ##div[style="position:fixed;inset:0px;z-index:999999;height:100%;width:100%"]
 
@@ -2257,8 +2267,10 @@ wiflix.*##center[style="padding: 20px;"]
 crn.com##+js(no-xhr-if, googlesyndication)
 
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/790#discussioncomment-9855720
-/^https:\/\/[a-z0-9]{7}\.pro\/\?aD[01][a-zA-Z0-9]{90}/$3p,script,popup,match-case,to=pro
-/^https:\/\/[a-z0-9]{7}\.xyz\/\?aD[01][a-zA-Z0-9]{90}/$3p,script,popup,match-case,to=xyz
+/^https:\/\/[a-z0-9]{7,9}\.pro\/\?aD[01][a-zA-Z0-9]{90}/$3p,script,popup,match-case,to=pro
+/^https:\/\/[a-z0-9]{7,9}\.xyz\/\?aD[01][a-zA-Z0-9]{90}/$3p,script,popup,match-case,to=xyz
+/^https:\/\/[a-z0-9]{7,9}\.pro\/\?aD[01][a-zA-Z0-9]{90}/$doc,match-case,domain=pro
+/^https:\/\/[a-z0-9]{7,9}\.xyz\/\?aD[01][a-zA-Z0-9]{90}/$doc,match-case,domain=xyz
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24233
 sport890.com.uy##+js(acs, gtag, adblock)
@@ -2313,3 +2325,21 @@ ezaudiobookforsoul.com##+js(set, cabdSettings, undefined)
 ! https://github.com/uBlockOrigin/uAssets/issues/24299
 ||popcdn.day/magnitude.js^
 ||freeshot.live/ads/
+
+! https://github.com/uBlockOrigin/uAssets/issues/24297#event-13341237136
+watch.shout-tv.com##+js(json-prune-fetch-response, adsConfiguration, , propsToMatch, /vod)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24303
+@@||cdn.cxense.com/cx.js$script,domain=tvaplus.ca
+@@||api.cxense.com^$script,domain=tvaplus.ca
+@@||ads.rubiconproject.com/prebid/$script,domain=tvaplus.ca
+
+! https://github.com/uBlockOrigin/uAssets/issues/24310
+arldeemix.com##+js(noeval-if, adblock)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24316
+authenticateme.xyz##+js(rpnt, script, /if.*includes.*;/)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24335
+club386.com##+js(set, td_ad_background_click_link)
+club386.com##body:style(background-image: unset !important; cursor: auto !important;)

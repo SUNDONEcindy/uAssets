@@ -1939,6 +1939,7 @@ gameinformer.com###announcementBanner
 thurrott.com###announcment-banner
 democracynow.org###appeal
 wikihow.com###article_courses_banner
+octoprint.org###banner
 learn.microsoft.com###banner-holder
 leawo.org###banner-top-prom
 pimylifeup.com###block-2
@@ -2048,7 +2049,6 @@ imgur.com##.Ad
 dengekionline.com##.ArticleList_listBanner__9Vy9d
 photonics.com##.BOX_MarginOut
 wgbh.org##.BottomPopupModule
-atlasobscura.com##.DDPageSiderailAds
 tabletmag.com##.DonationPopup
 talkingpointsmemo.com##.Footer__ModalAds
 techlila.com##.IRPP_button
@@ -2224,7 +2224,6 @@ citybeat.com,clevescene.com,metrotimes.com,orlandoweekly.com,riverfronttimes.com
 smashingmagazine.com##.feature-panel
 educba.com##.five-sixths
 truthout.org##.fixed-bottom
-total-croatia-news.com##.fixed-slider-height
 blogs.opera.com##.floating-section
 goodmenproject.com##.floatingchat-container-wrap
 azuremagazine.com##.flyout
@@ -2305,9 +2304,6 @@ tedium.co##.md-adbox
 themedialine.org##.mdl-section-donate-banner
 warontherocks.com##.member-button-container
 rigzone.com##.memberEngagementOverlay
-bitchute.com##.membership-container > .spa
-bitchute.com##.membership-container > span
-atlasobscura.com##.membership-creative
 axios.com##.membership-cta
 daily.jstor.org##.membership-incontent-banner
 birdwatchingdaily.com##.membership-promotion-header-banner
@@ -2440,6 +2436,8 @@ theintercept.com##.sticky-sidebar__donate
 scmp.com##.stickyLinks
 dcist.com##.story-appeal
 cryptorank.io##.styled__Wrapper-sc-1xbee9a-0
+lareviewofbooks.org##.styles_cta__rFpfQ
+lareviewofbooks.org##.styles_membershipContainer__10uhb
 nowpatient.com##.su-advertisement-wrapper
 newsweek.com##.subscribe-block-wrapper
 nautil.us##.subscribe-cta
@@ -2447,7 +2445,6 @@ crimereads.com,lithub.com##.subscriber-drive-container
 thesaturdaypaper.com.au##.subscriber-push-end
 spectator.co.uk##.subscription-banner
 artscanvas.org##.suggestion-box
-bigbangnews.com##.sumate
 golem.de##.supplementary
 codastory.com##.support
 artstation.com##.support-artstation
@@ -2668,7 +2665,6 @@ organicfacts.net##.fixed-bottom
 theblaze.com##.floating-copy
 newegg.com##.floating-right-tools
 pbtech.com##.js-track-ad
-howtogeek.com##.message
 ft.com##.n-feedback__container
 nation.africa##.promotion-banner
 ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,ebay.pl##.s-feedback
@@ -2702,7 +2698,6 @@ medicinenet.com,mega4upload.com###backTop
 circuitbasics.com,foodstuffsa.co.za,hardwarezone.com.sg,holidayswithkids.com.au,panoramapolitico.co,vgleaks.com###back_to_top
 investigativepost.org###backtoTop
 crazysales.com.au###backtop
-lleida.com,news.ki.se,soundonsound.com###backtotop
 blaauwbergbeachhotel.co.za###btTop
 qatarairways.com###btn-back-to-top
 tv-asahi.co.jp###btn-pagetop
@@ -2787,6 +2782,7 @@ dealnews.com##.back-to-top-outer
 atozmath.com##.backToTop33
 topuniversities.com##.back_top
 zerosette.it##.backto
+livemint.com##.backtoTop
 paradisehill.cc##.block-to-top
 bravotube.net##.btn-up
 koreaherald.com##.btn_top
@@ -2949,7 +2945,7 @@ albayan.ae,antennebrandenburg.de,autoscout24.it,billboard.it,calendario-365.it,c
 !! .top-btn
 filmix.ac,motor-doctor.co.uk,motor-doctor.nl,motordoctor.at,motordoctor.ch,motordoctor.co.no,motordoctor.de,motordoctor.dk,motordoctor.es,motordoctor.fi,motordoctor.fr,motordoctor.gr,motordoctor.hu,motordoctor.it,motordoctor.pl,motordoctor.pt,motordoctor.ro,motordoctor.se##.top-btn
 !! #backtotop
-adl.org,coreight.com,cosedicasa.com,gamepro.de,gamestar.de,oantagonista.com,theepochtimes.com###backtotop
+adl.org,coreight.com,cosedicasa.com,gamepro.de,gamestar.de,lleida.com,news.ki.se,oantagonista.com,soundonsound.com,theepochtimes.com###backtotop
 !! #topButton
 gedidigital.it,noen.at###topButton
 !! .spu-bg
@@ -3166,7 +3162,7 @@ plough.com##+js(remove-cookie, ArticlePaywallList)
 ! startribune.com (login/reg check)
 startribune.com##+js(remove-cookie, client_id)
 ! Mouse out nags
-cbs8.com,firstcoastnews.com,kare11.com,wtsp.com,ajc.com,wfaa.com,9news.com,fox2now.com,wcnc.com,13newsnow.com,wsvn.com,abc15.com,wwltv.com,wkyc.com,wthr.com,11alive.com,wcnc.com,wusa9.com,wfaa.com,9news.com,fox2now.com,abc15.com,wwltv.com,wkyc.com,king5.com,11alive.com##+js(aeld, /^(mouseout|mouseleave)$/)
+whas11.com,wfmynews2.com,wbir.com,wzzm13.com,wltx.com,wqad.com,wnep.com,wgrz.com,cbs8.com,firstcoastnews.com,kare11.com,wtsp.com,ajc.com,wfaa.com,9news.com,fox2now.com,wcnc.com,13newsnow.com,wsvn.com,abc15.com,wwltv.com,wkyc.com,wthr.com,11alive.com,wcnc.com,wusa9.com,wfaa.com,9news.com,fox2now.com,abc15.com,wwltv.com,wkyc.com,king5.com,11alive.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! t-nation.com 
 t-nation.com##.toggle_lb_scrolling_mobile
 t-nation.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)

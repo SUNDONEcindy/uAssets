@@ -6708,7 +6708,7 @@ org.zw
 
 // newGTLDs
 
-// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2024-06-13T15:15:16Z
+// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2024-06-29T15:13:33Z
 // This list is auto-generated, don't edit it manually.
 // aaa : American Automobile Association, Inc.
 // https://www.iana.org/domains/root/db/aaa.html
@@ -10494,7 +10494,7 @@ ups
 // https://www.iana.org/domains/root/db/vacations.html
 vacations
 
-// vana : Internet Naming Company LLC
+// vana : D3 Registry LLC
 // https://www.iana.org/domains/root/db/vana.html
 vana
 
@@ -12516,10 +12516,6 @@ dynamic-dns.info
 feste-ip.net
 knx-server.net
 static-access.net
-
-// cPanel L.L.C. : https://www.cpanel.net/
-// Submitted by Dustin Scherer <public.suffix@cpanel.net>
-*.cprapid.com
 
 // Craynic, s.r.o. : http://www.craynic.com/
 // Submitted by Ales Krajnik <ales.krajnik@craynic.com>
@@ -14771,12 +14767,6 @@ platter-app.com
 platter-app.dev
 platterp.us
 
-// Plesk : https://www.plesk.com/
-// Submitted by Anton Akhtyamov <program-managers@plesk.com>
-pleskns.com
-pdns.page
-plesk.page
-
 // Pley AB : https://www.pley.com/
 // Submitted by Henning Pohl <infra@pley.com>
 pley.games
@@ -15661,7 +15651,11 @@ reserve-online.net
 
 // WebPros International, LLC : https://webpros.com/
 // Submitted by Nicolas Rochelemagne <public.suffix@webpros.com>
+cprapid.com
+pleskns.com
 wp2.host
+pdns.page
+plesk.page
 wpsquared.site
 
 // WebWaddle Ltd: https://webwaddle.com/

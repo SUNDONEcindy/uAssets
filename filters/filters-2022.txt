@@ -15,12 +15,15 @@
 *$image,redirect-rule=32x32.png:5,domain=djxmaza.in|thecubexguide.com|dev.miuiflash.com|jytechs.in
 @@*$ghide,domain=dev.miuiflash.com|djxmaza.in|thecubexguide.com|jytechs.in
 @@||googletagmanager.com^$script,domain=dev.miuiflash.com|djxmaza.in|thecubexguide.com|jytechs.in
-@@*$script,xhr,to=googlesyndication.com|doubleclick.net|fundingchoicesmessages.google.com,from=dev.miuiflash.com|djxmaza.in|thecubexguide.com|jytechs.in
-jytechs.in,dev.miuiflash.com,djxmaza.in,thecubexguide.com##+js(nowoif, _blank)
 @@||googlesyndication.com^$frame,domain=djxmaza.in|dev.miuiflash.com|thecubexguide.com|jytechs.in
-jytechs.in,dev.miuiflash.com,djxmaza.in,thecubexguide.com##html.i-amphtml-inabox
+@@*$script,xhr,to=googlesyndication.com|doubleclick.net|fundingchoicesmessages.google.com,from=dev.miuiflash.com|djxmaza.in|thecubexguide.com|jytechs.in
 ||devfiles.pages.dev/img/*.jpeg$image,domain=djxmaza.in|dev.miuiflash.com|thecubexguide.com|jytechs.in
+jytechs.in,dev.miuiflash.com,djxmaza.in,thecubexguide.com##+js(nowoif, _blank)
+jytechs.in,dev.miuiflash.com,djxmaza.in,thecubexguide.com##html.i-amphtml-inabox
 jytechs.in,djxmaza.in,miuiflash.com,thecubexguide.com##[href*="random-affiliate.atimaze.com"]
+jytechs.in,djxmaza.in,miuiflash.com,thecubexguide.com##+js(rpnt, script, /about|aboutdis|div-gpt-ad-|iframe|featuredimage|google_ads_/, form, condition, getComputedStyle)
+jytechs.in,djxmaza.in,miuiflash.com,thecubexguide.com##+js(rpnt, script, /window\.getComputedStyle(.+)/, window.getComputedStyle(row))
+jytechs.in,dev.miuiflash.com,djxmaza.in,thecubexguide.com##[id*="gpt_unit"], [id*="div-gpt-"], [id*="google_ads_"], [id*="ad_"], [class*="Google"], [alt*="Advertisement"], [class*="ads"]:style(display: block !important; visibility: visible !important;)
 jytechs.in,djxmaza.in,miuiflash.com,thecubexguide.com#@##featuredimage
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/rr818d/
@@ -2598,22 +2601,14 @@ magicgameworld.com##+js(aost, document.getElementById, adsBlocked)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120124
 @@||up-cripto.com^$script,1p
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/120351
-! https://github.com/AdguardTeam/AdguardFilters/issues/120120
-#@##iqadtile5
-###iqadtile5:not(:empty)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120307
 netflav.com##.video_iframe_overlay_absolute_background_container
-missav.com##div[x-show="showBanner"]
+missav.*,missav123.com,missav789.com,myav.com##div[x-show="showBanner"]
 ! https://github.com/uBlockOrigin/uAssets/issues/16375
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182426
-missav.com,missav123.com,missav789.com,myav.com##+js(acs, document.createElement, htmlAds)
-missav.com,missav123.com,missav789.com,myav.com##+js(nowoif)
-missav.com,missav123.com,missav789.com,myav.com##^script:has-text(htmlAds)
-
-! animexstream. tk popups
-animexstream.*##+js(aopr, __Y)
+missav.*,missav123.com,missav789.com,myav.com##+js(acs, document.createElement, htmlAds)
+missav.*,missav123.com,missav789.com,myav.com##+js(nowoif)
+missav.*,missav123.com,missav789.com,myav.com##^script:has-text(htmlAds)
 
 ! wilifilm.net popup
 wilifilm.net##+js(aopr, BetterJsPop)
@@ -3573,9 +3568,10 @@ canale.live##+js(nosiif, href)
 ||html-load.com^$~css,domain=loawa.com|ygosu.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|dogdrip.net|worldhistory.org|bamgosu.site|thestar.co.uk|yorkshirepost.co.uk|raenonx.cc
 @@/loader.min.js$xhr,script,domain=loawa.com|ygosu.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|dogdrip.net|worldhistory.org|bamgosu.site|etnewskorea.com|thestar.co.uk|yorkshirepost.co.uk|raenonx.cc
 /loader.min.js$xhr,script,domain=loawa.com|ygosu.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|dogdrip.net|worldhistory.org|bamgosu.site|thestar.co.uk|yorkshirepost.co.uk|raenonx.cc,replace=/;return [a-z0-9]{1,2}\(\)\[.*?\]\(\(function\([a-z0-9]{1,2}\){for\(var/;return; return whocare()[nobodycare(111)]((function(){for(var/g
+||thestar.co.uk/_build/main.$script,1p,replace=/,adshield\:is//
 !#else
-*$csp=script-src-attr 'none',domain=lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com
-||html-load.com/loader.min.js$domain=lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com
+*$csp=script-src-attr 'none',domain=lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com|wfmz.com
+||html-load.com/loader.min.js$domain=lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com|wfmz.com
 loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,inven.co.kr,honkailab.com,genshinlab.com,thestockmarketwatch.com,thephoblographer.com,issuya.com,etnews.com,iusm.co.kr,dogdrip.net,worldhistory.org,text-compare.com,bamgosu.site,etnewskorea.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,gadgets360.com,thestar.co.uk,yorkshirepost.co.uk,logicieleducatif.fr,motorbikecatalog.com,jjang0u.com,raenonx.cc##+js(no-fetch-if, /static\.criteo\.net|adsbygoogle/, length:150000-150200)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=ygosu.com|loawa.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|etnews.com|iusm.co.kr|dogdrip.net|worldhistory.org|text-compare.com|bamgosu.site|etnewskorea.com|automobile-catalog.com|maketecheasier.com|thesaurus.net|gadgets360.com|thestar.co.uk|yorkshirepost.co.uk|logicieleducatif.fr|motorbikecatalog.com|jjang0u.com|raenonx.cc
 *$frame,redirect-rule=noopframe,domain=ygosu.com|loawa.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|etnews.com|iusm.co.kr|dogdrip.net|worldhistory.org|text-compare.com|bamgosu.site|etnewskorea.com|automobile-catalog.com|maketecheasier.com|thesaurus.net|gadgets360.com|thestar.co.uk|yorkshirepost.co.uk|logicieleducatif.fr|motorbikecatalog.com|jjang0u.com|raenonx.cc
@@ -3607,7 +3603,6 @@ gadgets360.com##.adhead
 gadgets360.com###adslot300x250ATF
 logicieleducatif.fr##[data-ez-ph-id]
 !#endif
-||pks.raenonx.cc/scripts/newRelicEumProd.js$script
 ||slobodnadalmacija.hr/templates/site/js/adrecover.js$script
 ||html-load.cc/script/$script
 ||07c225f3.online^$font,ping
@@ -3622,11 +3617,11 @@ logicieleducatif.fr##[data-ez-ph-id]
 ||html-load.cc/report?$xhr
 ||html-load.com/loader.min.js$domain=ndtvprofit.com
 *$popup,domain=html-load.cc|07c225f3.online|content-loader.com|css-load.com|html-load.com|html-load.cc
-/\.(xyz|online|site)\/[a-z0-9]{7}\/[a-z0-9]{50,}$/$match-case,popup,domain=ygosu.com|loawa.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|etnews.com|iusm.co.kr|dogdrip.net|worldhistory.org|text-compare.com|bamgosu.site|etnewskorea.com|automobile-catalog.com|maketecheasier.com|thesaurus.net|gadgets360.com|thestar.co.uk|yorkshirepost.co.uk|mydaily.co.kr|ndtvprofit.com|badmouth1.com|logicieleducatif.fr|taxguru.in|globalrph.com|raenonx.cc|sportsrec.com|reportera.co.kr|carscoops.com|slobodnadalmacija.hr|flatpanelshd.com
+/\.(xyz|online|site)\/[a-z0-9]{7}\/[a-z0-9]{50,}$/$match-case,popup,domain=ygosu.com|loawa.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|etnews.com|iusm.co.kr|dogdrip.net|worldhistory.org|text-compare.com|bamgosu.site|etnewskorea.com|automobile-catalog.com|maketecheasier.com|thesaurus.net|gadgets360.com|thestar.co.uk|yorkshirepost.co.uk|mydaily.co.kr|ndtvprofit.com|badmouth1.com|logicieleducatif.fr|taxguru.in|globalrph.com|raenonx.cc|sportsrec.com|reportera.co.kr|carscoops.com|slobodnadalmacija.hr|flatpanelshd.com|wfmz.com
 a-ha.io,cboard.net,jjang0u.com,joongdo.co.kr,viva100.com,thephoblographer.com,gamingdeputy.com,thesaurus.net,alle-tests.nl,maketecheasier.com,automobile-catalog.com,motorbikecatalog.com##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 !#if cap_html_filtering
 interfootball.co.kr,a-ha.io,cboard.net,jjang0u.com,joongdo.co.kr,viva100.com,thephoblographer.com,gamingdeputy.com,thesaurus.net,alle-tests.nl,maketecheasier.com,automobile-catalog.com,allthekingz.com,motorbikecatalog.com##^script:has-text(KCgpPT57bGV0IGU)
-worldhistory.org,etnews.com,iusm.co.kr,lamire.jp,picrew.me,text-compare.com,etnewskorea.com,gadgets360.com,mydaily.co.kr,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,sportsrec.com,reportera.co.kr,tweaksforgeeks.com,fourfourtwo.co.kr,flatpanelshd.com##^script[onload*="error-report.com"]
+worldhistory.org,etnews.com,iusm.co.kr,lamire.jp,picrew.me,text-compare.com,etnewskorea.com,gadgets360.com,mydaily.co.kr,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,sportsrec.com,reportera.co.kr,tweaksforgeeks.com,fourfourtwo.co.kr,flatpanelshd.com,wfmz.com##^script[onload*="error-report.com"]
 allthetests.com,javatpoint.com,globalrph.com,carscoops.com##^script:has-text(error-report.com)
 worldhistory.org##^script:has-text(adShield)
 !#else
