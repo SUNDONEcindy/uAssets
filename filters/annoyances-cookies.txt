@@ -92,6 +92,7 @@ theguardian.com##+js(trusted-set-cookie, consentUUID, e3fd021c-e23a-4a83-81b8-88
 ! https://www.theguardian.com/news/audio/2024/aug/09/best-of-2024-so-far-hippy-capitalist-guru-grocer-the-forgotten-genius-who-changed-british-food-podcast
 theguardian.com##+js(trusted-set-cookie,  consentStatus, rejectedAll)
 theguardian.com##+js(trusted-set-cookie,  ccpaUUID, 9df52f38-6763-409e-96d5-3ece9565aa68)
+theguardian.com##div[id^="sp_message_container_"]
 ! https://video.lefigaro.fr/figaro/video/les-gestes-damour-prennent-plusieurs-formes-dans-une-video-humoristique-lukraine-demande-plus-de-caesar-a-la-france/
 lefigaro.fr##+js(trusted-set-cookie, fig_save_consent, iTTPgpSWqAGGcd3vV88zNDbHsABxE1hB, 1year)
 ! https://www.filmweb.pl/video/Zwiastun/Indiana+Jones+i+artefakt+przeznaczenia+Zwiastun+nr+2+polskie+napisy-64884
@@ -103,7 +104,7 @@ wetransfer.com##+js(trusted-click-element, .fides-consent-wall .fides-banner-but
 ! https://www.thetrainline.com/
 thetrainline.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0008%3A0, 1year)
 ! https://console.scaleway.com/login
-scaleway.com##+js(trusted-set-cookie, _scw_rgpd_hash, 408362395)
+scaleway.com##+js(trusted-set-cookie, _scw_rgpd_hash, 1813808441)
 ! https://all3dp.com/
 all3dp.com##+js(trusted-set-cookie, PUR_SUBSCRIPTION, PREMIUM)
 ! If necessary aren't accepted, choosing a favorite store won't work
@@ -432,6 +433,13 @@ gamearena.pl##+js(set-cookie, cookieVer, 1, , reload, 1)
 publicsenat.fr##+js(trusted-click-element, ':is(.didomi-continue-without-agreeing, #didomi-notice-disagree-button)', , 2000)
 publicsenat.fr###didomi-host:style(opacity: 0 !important;)
 publicsenat.fr##body.didomi-popup-open:style(overflow: auto !important;)
+! mobile/EU IP
+bambaw.com##+js(trusted-set-cookie, cookieconsent_status, accept_selected)
+bambaw.com##+js(trusted-set-cookie, cookieconsent_preferences_disabled, 'functionality,analytics,marketing')
+! reject
+design.com##+js(trusted-set-cookie, brandcrowd-cookie-consent, %7B%22advertisingStorage%22%3Afalse%2C%22analyticsStorage%22%3Afalse%2C%22advertisingUserData%22%3Afalse%2C%22advertisingPersonalization%22%3Afalse%7D)
+! refuse/1=time
+vous.sncf-connect.com##+js(trusted-set-cookie, ka3kaaa, $now$#REFUSE_ALL)
 
 
 !! Needs additional cookies
@@ -1581,17 +1589,17 @@ derstandard.at,derstandard.de##+js(trusted-click-element, button[title="Einverst
 
 ! iubenda-cs-accept-btn
 ! https://github.com/uBlockOrigin/uAssets/pull/24738
-ansa.it,delladio.it,huffingtonpost.it,ilmessaggero.it,ilsecoloxix.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 1000)
-ansa.it,delladio.it,huffingtonpost.it,ilmessaggero.it,ilsecoloxix.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important;)
-ansa.it,delladio.it,huffingtonpost.it,ilmessaggero.it,ilsecoloxix.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
+ansa.it,delladio.it,huffingtonpost.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 1000)
+ansa.it,delladio.it,huffingtonpost.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important;)
+ansa.it,delladio.it,huffingtonpost.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
 ! https://github.com/uBlockOrigin/uAssets/pull/25606
 ! https://github.com/uBlockOrigin/uAssets/pull/25324
-ilgazzettino.it###iubenda-cs-banner:style(visibility: hidden !important;)
-ilgazzettino.it##html:style(overflow: auto !important;)
-ilgazzettino.it##+js(set, _iub.cs.options.callback.onConsentRejected, noopFunc)
-ilgazzettino.it##+js(set, _iub.cs.options.callback.onConsentFirstRejected, noopFunc)
-ilgazzettino.it##+js(trusted-click-element, button.iubenda-cs-close-btn)
-||utils.cedsdigital.it/src/js/cmpConsentWall.js^$domain=ilgazzettino.it
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it###iubenda-cs-banner:style(visibility: hidden !important;)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##html:style(overflow: auto !important;)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(set, _iub.cs.options.callback.onConsentRejected, noopFunc)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(set, _iub.cs.options.callback.onConsentFirstRejected, noopFunc)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(trusted-click-element, button.iubenda-cs-close-btn)
+||utils.cedsdigital.it/src/js/cmpConsentWall.js^$domain=ilgazzettino.it|ilmessaggero.it
 ||iubenda.com^$domain=3bmeteo.com,important
 
 ! https://github.com/uBlockOrigin/uAssets/issues/24366
@@ -1633,9 +1641,9 @@ redbull.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , d
 ! https://kurier.at/video/aktuelle-videos/israel-bombardiert-weiter-hisbollah-ziele-im-libanon/402951598
 jeuxvideo.com##+js(trusted-click-element, button[onclick="Didomi.setUserAgreeToAll();"], , 1000)
 idnes.cz##+js(trusted-click-element, a[href="javascript:Didomi.setUserAgreeToAll();"], , 1000)
-20minutos.es,20minutes.fr,24sata.hr,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,krone.at,kurier.at,lalibre.be,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,sncf-connect.com,telegraaf.nl,trailrun.es##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
-20minutos.es,20minutes.fr,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,jeuxvideo.com,krone.at,kurier.at,lalibre.be,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,sncf-connect.com,telegraaf.nl,trailrun.es###didomi-host:style(visibility: hidden !important;)
-20minutos.es,20minutes.fr,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,jeuxvideo.com,krone.at,kurier.at,lalibre.be,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,sncf-connect.com,telegraaf.nl,trailrun.es##body.didomi-popup-open:style(overflow: auto !important;)
+20minutos.es,20minutes.fr,24sata.hr,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,engadget.com,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,krone.at,kurier.at,lalibre.be,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,shure.com,silicon.es,sncf-connect.com,sport.es,telegraaf.nl,trailrun.es##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
+20minutos.es,20minutes.fr,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,engadget.com,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,jeuxvideo.com,krone.at,kurier.at,lalibre.be,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,shure.com,silicon.es,sncf-connect.com,sport.es,telegraaf.nl,trailrun.es###didomi-host:style(visibility: hidden !important;)
+20minutos.es,20minutes.fr,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,engadget.com,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,jeuxvideo.com,krone.at,kurier.at,lalibre.be,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,shure.com,silicon.es,sncf-connect.com,sport.es,telegraaf.nl,trailrun.es##body.didomi-popup-open:style(overflow: auto !important;)
 @@||sdk.privacy-center.org^$script,domain=actu.fr|ledauphine.com
 
 ! didomi-continue-without-agreeing
@@ -1810,3 +1818,9 @@ florence.com.tr##+js(trusted-set-local-storage-item, cookieConsent, '{"requiredC
 ! idagio.com cookies
 app.idagio.com##+js(trusted-set-cookie, cookie-preferences, {%22necessary%22:true%2C%22marketingAndAnalytics%22:false%2C%22functional%22:false%2C%22advertising%22:false}, , , reload, 1, domain, app.idagio.com)
 www.idagio.com##+js(trusted-set-cookie, cookie-preferences, {%22necessary%22:true%2C%22marketingAndAnalytics%22:false%2C%22functional%22:false%2C%22advertising%22:false}, , , reload, 1, domain, www.idagio.com)
+
+! reject
+lilly.com##+js(trusted-click-element, button.cassie-reject-all, , 1000)
+
+! essential cookies only
+revolut.com##+js(trusted-set-cookie, rev_cookie_consent, {%22preferences%22:false%2C%22analytics%22:false%2C%22advertising%22:false})

@@ -1307,6 +1307,7 @@ divyabhaskar.co.in##[id^="Ad"]:upward([style])
 
 ! propeller crap/ads
 livesport24.net##+js(acs, setTimeout, admc)
+livesport24.net##+js(aopr, Adcash)
 livesport24.net##[href^="https://b-partner.xyz/"]
 123moviesme.*##+js(aopr, decodeURI)
 jattmate.com,saveshared.com,simpledownload.net##+js(aopr, String.fromCharCode)
@@ -4877,7 +4878,7 @@ boainformacao.com.br##+js(no-xhr-if, adsbygoogle)
 pinterest.*##a[href*="&epik="]:upward([data-grid-item])
 !pinterest.*##[data-grid-item]:has([aria-label]:not([aria-label*="pinterest"])[href^="http"])
 !#if !env_mobile
-pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"])
+! pinterest.*##[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"])
 !#else
 pinterest.*##[data-grid-item]:has([data-test-pin-id] a[href^="http"][rel] [data-test-id="pincard-oneTap-with-link"])
 !#endif

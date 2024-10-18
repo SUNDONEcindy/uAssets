@@ -74,7 +74,7 @@ paradisi.de,pc-magazin.de,pcgames.de,pcgameshardware.de,pcwelt.de,pcworld.es,pei
 quoka.de##+js(nostif, .call(null), 10)
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se,ran.de,readmore.de,rechtslupe.de,recording.de,rennrad-news.de,reuters.com,reviersport.de,rhein-main-presse.de,rheinische-anzeigenblaetter.de,rimondo.com,roadbike.de,roemische-zahlen.net,rollingstone.de,rot-blau.com,rp-online.de,rtl.de,rtv.de,rugby365.fr,ruhr24.de,rundschau-online.de,runnersworld.de##+js(nostif, .call(null), 10)
 safelist.eu,salzgitter-zeitung.de,sat1.de,sat1gold.de,schoener-wohnen.de,schwaebische-post.de,schwarzwaelder-bote.de,serienjunkies.de,shz.de,sixx.de,skodacommunity.de,smart-wohnen.net,sn.at,sozialversicherung-kompetent.de,spiegel.de,spielen.de,spieletipps.de,spielfilm.de,sport.de,sport1.de,sport365.fr,sportal.de,spox.com,stern.de,stuttgarter-nachrichten.de,stuttgarter-zeitung.de,sueddeutsche.de,svz.de,szene1.at,szene38.de##+js(nostif, .call(null), 10)
-t-online.de,tagesspiegel.de,taschenhirn.de,techadvisor.co.uk,techstage.de,tele5.de,testedich.*,the-voice-of-germany.de,thueringen24.de,tichyseinblick.de,tierfreund.co,tiervermittlung.de,torgranate.de,transfermarkt.*,trend.at,truckscout24.*,tv-media.at,tvdigital.de,tvinfo.de,tvspielfilm.de,tvtoday.de,tvtv.*,tz.de##+js(nostif, .call(null), 10)
+t-online.de,tagesspiegel.de,taschenhirn.de,techadvisor.co.uk,techstage.de,tele5.de,teltarif.de,testedich.*,the-voice-of-germany.de,thueringen24.de,tichyseinblick.de,tierfreund.co,tiervermittlung.de,torgranate.de,transfermarkt.*,trend.at,truckscout24.*,tv-media.at,tvdigital.de,tvinfo.de,tvspielfilm.de,tvtoday.de,tvtv.*,tz.de##+js(nostif, .call(null), 10)
 unicum.de,unnuetzes.com,unsere-helden.com,unterhalt.net,usinger-anzeiger.de,usp-forum.de##+js(nostif, .call(null), 10)
 videogameszone.de,vienna.at,vip.de,virtualnights.com,vox.de##+js(nostif, .call(null), 10)
 wa.de,wallstreet-online.de,waz.de,weather.us,webfail.com,weihnachten.me,weihnachts-bilder.org,weihnachts-filme.com,welt.de,weltfussball.at,weristdeinfreund.de,werkzeug-news.de,werra-rundschau.de,wetterauer-zeitung.de,wetteronline.*,wieistmeineip.*,wiesbadener-kurier.de,wiesbadener-tagblatt.de,winboard.org,windows-7-forum.net,winfuture.de,wintotal.de,wlz-online.de,wn.de,wohngeld.org,wolfenbuetteler-zeitung.de,wolfsburger-nachrichten.de,woman.at,womenshealth.de,wormser-zeitung.de,woxikon.de,wp.de,wr.de##+js(nostif, .call(null), 10)
@@ -1714,13 +1714,6 @@ pichaloca.com##.publis-bottom
 ! https://github.com/uBlockOrigin/uAssets/issues/931
 pornodoido.com##+js(aopr, ExoLoader)
 
-! https://github.com/uBlockOrigin/uAssets/issues/5470
-! https://github.com/uBlockOrigin/uAssets/issues/8039
-kinos.*,kinox.*##+js(acs, adcashMacros)
-kinos.*,kinox.*##+js(aopr, AaDetector)
-kinos.*,kinox.*##+js(aopr, eddOptions)
-||35.226.75.50^
-
 ! https://github.com/uBlockOrigin/uAssets/issues/941#issuecomment-405022292
 @@||ucoz.com^$ghide
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=shidurlive.com
@@ -2990,6 +2983,7 @@ mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*##iframe[src^="p
 xfreehd.com##.nvheader > span:has-text(Advertisement)
 *$frame,redirect-rule=noopframe,domain=xfreehd.com
 xfreehd.com##.ad-body:remove()
+xfreehd.com##+js(rmnt, script, navigator.brave)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1550
 ! https://forums.lanik.us/viewtopic.php?f=62&t=42535
@@ -8733,10 +8727,6 @@ pussytorrents.org##+js(aopr, loadTool)
 ! https://github.com/NanoMeow/QuickReports/issues/1157
 ||assets.moat.com/*/ad$image,redirect=2x2.png,1p
 
-! addic7ed.com popups
-addic7ed.com##+js(aopr, AaDetector)
-addic7ed.com##+js(aopr, eddOptions)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5534
 @@||rmdan.*^$ghide
 
@@ -9139,15 +9129,6 @@ mlwbd.*##input[value^="http"]:style(width: 70% !important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5779
 123mkv.*##+js(nowoif)
-
-! https://forums.lanik.us/viewtopic.php?f=90&t=35977
-hdfilme.*##+js(aopr, eddOptions)
-hdfilme.*##+js(nostif, invoke)
-! https://github.com/easylist/easylist/issues/11264
-hdfilme.*##+js(aopr, console.clear)
-hdfilme.*##+js(aopr, adBlocked)
-hdfilme.*##+js(aopr, AaDetector)
-hdfilme.*###fake-player-wrapper
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=43117
 ||goodnewsnetwork.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagservices.com *.wp.com *.air.tv *.addthis.com *.cloudflare.com *.facebook.net *.facebook.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com *.googletagmanager.com *.instagram.com
@@ -10379,7 +10360,6 @@ filedown.*##+js(nowoif)
 ! https://github.com/uBlockOrigin/uAssets/issues/3419
 mexa.*##+js(acs, document.getElementById, adblockinfo)
 mexa.sh##+js(acs, String.fromCharCode, 'shift')
-mexa.sh##+js(aopr, eddOptions)
 mexa.*##+js(aopw, adBlockDetected)
 mexa.sh##+js(aopw, afScript)
 mexa.*##+js(aopw, installBtnvar)
@@ -13540,7 +13520,6 @@ fuskator.com##+js(aopr, ea.add)
 fuskator.com##+js(noeval)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3401
-bostoncommons.net##+js(aopr, eddOptions)
 bostoncommons.net##+js(aopr, LieDetector)
 bostoncommons.net##+js(nostif, adsBlocked)
 

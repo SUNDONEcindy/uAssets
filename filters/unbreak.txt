@@ -727,9 +727,6 @@ go.com#@#.has-ad
 ! https://github.com/uBlockOrigin/uAssets/issues/4275
 riderplanet-usa.com#@##ad_1
 
-! https://github.com/uBlockOrigin/uAssets/issues/4268#issuecomment-445490940
-adproceed.com#@#.single-ad
-
 ! https://www.winboard.org/threads/interaktion-auf-website-nicht-moeglich-wwm-trainigslager.250843/
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wwm.rtl.de
 
@@ -781,9 +778,6 @@ hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
 ! https://github.com/uBlockOrigin/uAssets/issues/4708
 @@||art19.com^$xhr,domain=merriam-webster.com
 @@||graph.facebook.com^$xhr,domain=merriam-webster.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/4748
-tomsguide.com#@#.widget-ads
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4760
 @@||static.sunmedia.tv/integrations/*$script,domain=api.gooru.live|elespanol.com|periodistadigital.tv
@@ -5720,3 +5714,12 @@ pruefernavi.de##+js(set, elasticApm.init, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25626
 ||lamycosphere.com/cdn/shop/*/assets/pixel.gif$image,1p,redirect=1x1.gif,important
+
+! https://github.com/uBlockOrigin/uAssets/issues/25661
+!#if !env_mobile
+steamidfinder.com###nn_bfa_wrapper + .container:style(margin-top: 50px !important;)
+!#endif
+steamidfinder.com##.section-advert-banner--top:remove()
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1g5ae5z/breakage_on_pumacom/
+@@||segmentify.com^$domain=puma.com

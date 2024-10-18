@@ -224,8 +224,7 @@ learnmany.in##+js(rmnt, script, deblocker)
 shortix.co###btn6, #tp98:style(display: block !important;)
 shortix.co###btn6, #tp98:others()
 ! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-9984206 (https://top10cafe .se/verify/?/nwe9vsolam)
-top10cafe.se##+js(no-fetch-if, googlesyndication, length:10)
-top10cafe.se##+js(aopr, SMart1)
+top10cafe.se##+js(noeval-if, ads)
 
 ! owllink.net & birdurls.com (go.owllink.net/1wij6ola)
 uptechnologys.com,sevenjournals.com###yuidea-snp, #btn6:style(display: block !important;)
@@ -1061,6 +1060,8 @@ djpunjab2.in,djqunjab.in,foodxor.com,geniussolutions.co,mealcold.com,mixrootmods
 djqunjab.in,geniussolutions.co###interstitial-container
 geniussolutions.co##+js(aost, document.getElementById, adsBlocked)
 djqunjab.in##+js(rmnt, script, deblocker)
+! https://github.com/uBlockOrigin/uAssets/issues/25673
+skillheadlines.in##+js(aost, document.getElementById, adsBlocked)
 
 ! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-8650815
 hosty.uprwssp.org###btnfianl:style(display: block !important;)
@@ -1359,3 +1360,13 @@ texw.online##+js(noeval-if, /chp_?ad/)
 
 ! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-10834278
 ikingfile.mooo.com##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-10952637
+fuckingfast.co##+js(rpnt, script, !seen && ad, false)
+||fuckingfast.co/f/*/dl^$xhr,1p
+||senditfast.cloud^$doc
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1g59yxn/adblock_detection_on_streamelementscom/ (https://strms .net/callofdragons_zelderler)
+streamelements.com##+js(set, google_srt, 0)
+streamelements.com##+js(set, sensorsDataAnalytic201505, {})
+||validate.strms.net/*adblock%3Dtrue$doc,uritransform=/adblock%3Dtrue/adblock%3Dfalse/

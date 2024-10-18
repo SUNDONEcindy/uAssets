@@ -1032,7 +1032,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||copypoison.com^$third-party
 ||copyrightcontent.org^$third-party
 ||cre.ma^$third-party
-||creativecommons.org^$image,third-party
 ||ctctcdn.com/js/signup-form-widget/$third-party
 ||curator.io^$third-party
 ||cursors-4u.net^$third-party
@@ -1132,7 +1131,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||licensebuttons.net^$image,third-party
 ||ligatus.com^$third-party
 ||linkwithin.com^$third-party
-||list-manage.com/subscribe/
 ||list-manage1.com/subscriber-count?$third-party
 ||live4sport.net^$third-party
 ||liveintent.com^$third-party
@@ -1330,6 +1328,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||wishpond.com^$third-party,domain=~markanthonywineandspirits.ca
 ||worldgravity.com^$third-party
 ||wp.com/www.feedburner.com/fb/$image
+||wurfl.io^$third-party
 ||xhamsterlive.com/api/external/$third-party
 ||yimg.com/uq/syndication/
 ||yimg.com^*/GoldenGate.
@@ -2034,6 +2033,7 @@ bitfinex.com##.banners-banner
 billboard.com##.bb-pro-promotional-banner
 snopes.com##.become_member_section
 truthdig.com##.before-you-go
+newrepublic.com##.beg-to-differ
 alternet.org##.below-content-appeal
 scribd.com##.between_page_portal_root
 inthesetimes.com##.bg-blackest
@@ -2739,7 +2739,7 @@ delanceyplace.com###nekoToTop
 kohls.com,samsclub.com###oo_tab
 kyodo.co.jp###page-top
 macromill.com,mhi.com,smth.jp###pageTop
-census.gov,chugai-pharm.co.jp,nyk.com###pagetop
+census.gov,chugai-pharm.co.jp,daiichi-kamotsu.co.jp,nhk.or.jp,nyk.com,webtsc.com###pagetop
 bingplaces.com###pagination_Arrow
 nouvelles.umontreal.ca###retour-haut
 accessoires-asus.com###retourHaut
@@ -2797,6 +2797,7 @@ goafricaonline.com##.arrow-up-container
 thenassauguardian.com##.arrow_carrot-2up
 allaboutcd.com##.atbs-ceris-go-top
 goodwillfinds.com##.b-back_to_top
+itc.ua##.b-top
 help.x.com##.b17-scroll-top-button
 albertsons.com,celebritycruises.com,dl.acm.org,err.ee,giantfreakinrobot.com,mygenefood.com,nzherald.co.nz,onthegotours.com,savoredjourneys.com,stanfordreview.org,wanderlustcrew.com##.back-to-top
 mangatoto.com##.back-to-top-bot
@@ -3654,7 +3655,6 @@ kotobank.jp###myPaymentModal
 280blocker.net,biglobe.ne.jp###page-top
 tabelog.com###page-up
 radionikkei.jp###page_top
-daiichi-kamotsu.co.jp,nhk.or.jp,webtsc.com###pagetop
 yahoo.co.jp###pg_top
 sofmap.com###remote_cs
 ec-store.net###rt\.popup-overlay_rt_popup_sws
