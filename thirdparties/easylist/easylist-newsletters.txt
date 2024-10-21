@@ -2369,6 +2369,7 @@ nutritioninsight.com##.footer_form_section
 cooking.nytimes.com##.footer_newsletterSectionBlock__c0Qgo
 sebgorka.com##.footer_newsletter_wrap
 gsmserver.com##.footer_subscribe_subscribe-wrap
+aspose.com##.footersubscribe
 highsnobiety.com##.forUnit___ixF4Y
 devdiscourse.com,upi.com##.form-inline
 breakingenergy.com,breakinggov.com##.form-interruptor
@@ -2776,6 +2777,7 @@ notateslaapp.com##.newsletter-mod
 dailymail.co.uk##.newsletter-modal-shopping
 swissinfo.ch##.newsletter-modal__container
 bloomberg.com,forward.com,jns.org,latimes.com,northernvirginiamag.com,sandiegouniontribune.com,tvinsider.com,wamu.org##.newsletter-module
+gobankingrates.com##.newsletter-module-optin--container
 poynter.org##.newsletter-nav
 kivitv.com##.newsletter-opt
 advocate.com##.newsletter-overlay
@@ -2785,6 +2787,7 @@ cremaoggi.it,cremonaoggi.it,cremonasport.it,crypto.news,heelhollandbakt.nl,ici.r
 hypebeast.com##.newsletter-popup-modal
 thepitchkc.com##.newsletter-promo-box
 winnipegfreepress.com##.newsletter-prompt
+gobankingrates.com##.newsletter-right-rail-optin
 broadwayworld.com##.newsletter-row
 essemagazine.it,percona.com,poynter.org##.newsletter-section
 darkreading.com,everydayhealth.com,gamedeveloper.com,historyextra.com,radiotimes.com##.newsletter-sign-up
@@ -3193,7 +3196,7 @@ aorus.com,nutritioninsight.com,packaginginsights.com##.subscribe-div
 cafemom.com##.subscribe-enter-done
 euroweeklynews.com##.subscribe-for-news
 memri.org##.subscribe-for-updates
-allthings.how,armageddonexpo.com,businesstech.co.za,dashbit.co,itsfoss.com,jurist.org,pandotrip.com,pissdaily.com,reasonstobecheerful.world,rigzone.com,sfist.com##.subscribe-form
+allthings.how,armageddonexpo.com,businesstech.co.za,dashbit.co,itsfoss.com,jurist.org,neon.tech,pandotrip.com,pissdaily.com,reasonstobecheerful.world,rigzone.com,sfist.com##.subscribe-form
 theanalyst.com##.subscribe-form-footer
 gwaramedia.com##.subscribe-form-holder
 bongino.com##.subscribe-form-home
@@ -3420,6 +3423,7 @@ san.com##.wp-block-san-san-inarticle-newsletter-signup
 san.com##.wp-block-san-san-sidebar-newsletter-signup
 san.com##.wp-block-san-sidebar-cta__content
 techcrunch.com##.wp-block-tc23-newsletter-signup-compact
+techcrunch.com##.wp-block-techcrunch-newsletter-signup-compact
 minnpost.com##.wp-elements-6af074a2b773903132682d24a9a289ae
 visualcapitalist.com##.wp-image-1216
 lifeinnorway.net##.wp-image-9836
@@ -3540,13 +3544,14 @@ extremetech.com##section > .mt-8
 christianpost.com##section[class^="inline-newsletter"]
 regain.us##section[data-testid="newsletter-section"]
 ! specific
-theverge.com##.duet--cta--newsletter
+polygon.com,theverge.com##.duet--cta--newsletter
 ! theprovince.com/winnipegsun.com/canoe.com/o.canada.com/financialpost.com/nationalpost.com
 ##.newsletter-widget__new-story-page
 ! :has
 businesstimes.com.sg##.border-gray-175:has-text(BT in your inbox)
 calgaryherald.com,edmontonjournal.com,montrealgazette.com,ottawacitizen.com,thestarphoenix.com##.callout:has-text(inbox)
 interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
+polygon.com##[class]:has(> .duet--cta--newsletter)
 advancedsciencenews.com#?#.et_pb_row_1_tb_body:-abp-contains(Sign up for our weekly newsletter)
 advancedsciencenews.com#?#.et_pb_section:-abp-contains(Sign up for our weekly newsletter)
 babylonbee.com#?#.bg-gray-50:-abp-contains(Fake news)
@@ -4883,6 +4888,7 @@ sweetwater.com##.site-footer-col--subscribe
 navafresh.com##.site-footer-newsletter__one-half
 jaysresales.com##.site-footer__item-inner--newsletter
 prohockeylife.com##.site-newsletter-bar
+wolverine.com##.social-box-sign-up
 teepop.com##.spin-modal
 lambland.co.uk,solestop.com##.springbot-overlay
 supplementwarehouse.com.au##.spy-newsletter
