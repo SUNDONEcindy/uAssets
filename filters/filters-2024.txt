@@ -1006,8 +1006,10 @@ postermockup.com##+js(aost, setTimeout, adsBlocked)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165624
 ! https://github.com/uBlockOrigin/uAssets/issues/13594
-||check-host.net/images/ympndguath$image,1p
-||check-host.net/images/ypndguath$image,1p
+||check-host.net/images/mhostealo$image,1p
+||check-host.net/images/dhostealos$image,1p
+||check-host.net/images/mowaith$image,1p
+||check-host.net/images/dowaith$image,1p
 ||check-host.net/images/alexrhost.png$image,1p
 ||check-host.net/images/aezrlogo.svg$image,1p
 ||check-host.net/images/naez-$image,1p
@@ -1332,9 +1334,6 @@ itopmusics.com##+js(acs, atob, /popundersPerIP[\s\S]*?Date[\s\S]*?getElementsByT
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11765
 movies7.to##+js(nowoif)
-
-! toolkitspro .com anti-adb
-toolkitspro.com##+js(no-xhr-if, googlesyndication)
 
 ! historyofroyalwomen .com anti-adb
 historyofroyalwomen.com##+js(aeld, DOMContentLoaded, daadb_get_data_fetch)
@@ -2357,7 +2356,7 @@ soccerinhd.com##div[style="position: fixed; top: 0px; left: 0px; width: 100%; he
 molbiotools.com##+js(nostif, inner-ad)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180454
-7mm003.cc,7mmtv.sx,javporn.tv,mm9845.com##+js(nowoif)
+7mm003.cc,7mmtv.sx,mm9845.com##+js(nowoif)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1d49rre/how_to_block_browser_recognition_on_vodstv/
 vods.tv##+js(nostif, _ET)
